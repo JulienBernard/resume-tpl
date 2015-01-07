@@ -1,0 +1,38 @@
+/**
+ * Resume-tpl
+ *
+ * An open and free HTML template to make your own awesome resume!
+ * Built with Sass, fully configurable. Wow!
+ * 
+ * @date 2015
+ * @author Julien "Jibi" Bernard <jbernard@intechinfo.fr>
+ **/
+
+@import 'globals';	// Globals variables (colors, font-size ...)
+@import 'settings';	// Globals settings (mixins)
+
+/* Website stylesheet */
+
+body {
+  background: $background-body-color;
+  p {
+    color: $text-primary-color;
+    font-size: $text-primary-size;
+  }
+  
+  section {
+    width: 80%;
+    padding: 2%;
+    margin: auto;
+    background: $background-section-color;
+
+    @media screen and (max-width: $responsive-break-small) {
+      width: 90%;
+      padding: 3%;
+    }
+    @media screen and (min-width: $responsive-break-large) {
+      width: 70%;
+      padding: 1%;
+    }
+  }
+}
