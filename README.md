@@ -12,10 +12,24 @@ But if you just want the original sources, you don't need anything in particular
 
 ### Configuration ###
 
-Soon...
+You have Node.js? Great! Now install the modules by doing this on your console: `npm install`
+
+The build process works with a simple command: type in your console `grunt` to launch the default Grunt task!
+
+By doing this, a new folder "build" should be appear. It contain an HTML file `index.html` and it stylesheet `app.css`. Just launch index.html in your favorite browser and see the result :)
+
+### Grunt tasks : ###
+
+- `grunt` or `grunt default` - the easier way to build the project (check *build/* folder for the result!)
+- `grunt make-styles` - convert SCSS to CSS files and add the CSS prefixes to *build/app.css*
+- `grunt clean-build` - remove all the files contains in the build folder
+
+Don't forget to use the `watch` task when you are setting up and filling your resume!
+
+- `grunt watch` - wait an update on the SCSS or HTML files
 
 ## Licence ##
 Under GPL 3.0 licence. Read more about this licence [here](http://www.gnu.org/licenses/gpl-3.0.html "Click to read more about the GPL licence").
 
 ## Author ##
-This sample was made by Julien Bernard ([http://jibidev.fr](http://jibidev.fr "Click and go to jibidev.fr")), a young French developer.
+This sample was made by Julien Bernard ([http://jibidev.fr](http://jibidev.fr "Click and go to jibidev.fr")), a young French developer (Grenoble, France).
