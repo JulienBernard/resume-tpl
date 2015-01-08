@@ -8,6 +8,7 @@
  * @author Julien "Jibi" Bernard <jbernard@intechinfo.fr>
  **/
 
+@import 'reset';
 @import 'globals';	// Globals variables (colors, font-size ...)
 @import 'settings';	// Globals settings (mixins)
 
@@ -15,15 +16,17 @@
 
 body {
   background: $background-body-color;
+  font-family: $text-primary-fonts;
+  
   p {
-    color: $text-primary-color;
+    color: $primary-color;
     font-size: $text-primary-size;
   }
   
   section {
     width: 80%;
     padding: 2%;
-    margin: auto;
+    margin: 100px auto auto auto;
     background: $background-section-color;
 
     @media screen and (max-width: $responsive-break-small) {
@@ -33,6 +36,65 @@ body {
     @media screen and (min-width: $responsive-break-large) {
       width: 70%;
       padding: 1%;
+    }
+    
+    #profile {
+      width: 90%;
+      margin: auto;
+      text-transform: uppercase;
+      text-align: center;
+      padding-bottom: 4%;
+      margin-bottom: 4%;
+      border-bottom: 2px solid #666;
+
+      @media screen and (max-width: $responsive-break-small) {
+        width: 100%;
+        padding-bottom: 6%;
+        margin-bottom: 6%;
+      }
+      
+      .face {
+        width: 200px;
+        height: 200px;
+        margin: calc(-1% - 100px) auto 1% auto;
+        background: #fff url($img-profile-face) no-repeat center;
+        background-size: contain;
+        border-radius: 50%;
+        border: 6px solid $background-body-color;
+        box-shadow: inset 0px 0px 6px 0px #222;
+        filter:progid:DXImageTransform.Microsoft.Shadow(color=#222, Direction=NaN, Strength=6);
+      }
+      .title {
+        font-size: $text-profile-title-size;
+        color: $primary-color;
+        letter-spacing: -1px;
+        font-weight: 800;
+        line-height: 1.7em;
+
+        @media screen and (max-width: $responsive-break-small) {
+          font-size: $text-profile-title-size - 0.1em;
+          line-height: 1em;
+        }
+      }
+      .short-pitch {
+        font-size: $text-profile-short-pitch-size;
+        color: $primary-color;
+        font-weight: 600;
+
+        @media screen and (max-width: $responsive-break-small) {
+          padding-top: 2%;
+          font-size: $text-profile-short-pitch-size - 0.1em;
+        }
+
+        span {
+          color: $secondary-color;
+        }
+      }
+    }
+    
+    #body {
+      padding: 0;
+      margin: 0;
     }
   }
 }
