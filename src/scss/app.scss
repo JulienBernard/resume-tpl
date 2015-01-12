@@ -186,6 +186,28 @@ body {
             list-style-image: url("icon-github.png");
             margin-left: 24px;
           }
+          &.experience {
+            line-height: 1em;
+            margin-left: -12px;
+
+            .title {
+              display: inline;
+              font-weight: 700;
+              font-size: 1em;
+              margin: 0;
+              padding: 0;
+            }
+            .year:before {
+              content: "(";
+            }
+            .year::after {
+              content: ")";
+            }
+
+            div {
+              padding-left: 8px;
+            }
+          }
         }
       }
     }
