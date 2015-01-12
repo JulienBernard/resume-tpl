@@ -31,5 +31,14 @@ Don't forget to use the `watch` task when you are setting up and filling your re
 ## Licence ##
 Under GPL 3.0 licence. Read more about this licence [here](http://www.gnu.org/licenses/gpl-3.0.html "Click to read more about the GPL licence").
 
+### Ressources and authors ###
+
+- [User icon] Icone made by [Budi Tanrim](http://buditanrim.co "http://buditanrim.co") from [Flaticon](www.flaticon.com "www.flaticon.com") is licensing under [CC BY 3.0](http://creativecommons.org/licenses/by/3.0/ "http://creativecommons.org/licenses/by/3.0/")
+- [Phone icon] Icone made by [Freepik](http://www.freepik.com "http://www.freepik.com") from [Flaticon](www.flaticon.com "www.flaticon.com") is licensing under [CC BY 3.0](http://creativecommons.org/licenses/by/3.0/ "http://creativecommons.org/licenses/by/3.0/")
+- [Email icon] Icone made by [GraphicsBay](http://graphicsbay.com "http://graphicsbay.com") from [Flaticon](www.flaticon.com "www.flaticon.com") is licensing under [CC BY 3.0](http://creativecommons.org/licenses/by/3.0/ "http://creativecommons.org/licenses/by/3.0/")
+- [Website icon] Icone made by [Freepik](http://www.freepik.com "http://www.freepik.com") from [Flaticon](www.flaticon.com "www.flaticon.com") is licensing under [CC BY 3.0](http://creativecommons.org/licenses/by/3.0/ "http://creativecommons.org/licenses/by/3.0/")
+- [GitHub icon] Icone made by [Dave Gandy](http://fontawesome.io "http://fontawesome.io") from [Flaticon](www.flaticon.com "www.flaticon.com") is licensing under [CC BY 3.0](http://creativecommons.org/licenses/by/3.0/ "http://creativecommons.org/licenses/by/3.0/")
+
+
 ## Author ##
 This sample was made by Julien Bernard ([http://jibidev.fr](http://jibidev.fr "Click and go to jibidev.fr")), a young French developer (Grenoble, France).
