@@ -154,6 +154,39 @@ body {
           width: 32%;
           float: right;
         }
+        
+        li {
+          text-align: left;
+          padding: 0.5em 1em 0.5em 1em;
+          font-size: 0.9em;
+          color: #555;
+          
+          span {
+            vertical-align: 50%;
+          }
+          a {
+            text-decoration: none;
+          }
+          &:hover {
+            color: black;
+          }
+          &.phone {
+            list-style-image: url("icon-phone.png");
+            margin-left: 24px;
+          }
+          &.mail {
+            list-style-image: url("icon-mail.png");
+            margin-left: 24px;
+          }
+          &.website {
+            list-style-image: url("icon-website.png");
+            margin-left: 24px;
+          }
+          &.github {
+            list-style-image: url("icon-github.png");
+            margin-left: 24px;
+          }
+        }
       }
     }
   }
