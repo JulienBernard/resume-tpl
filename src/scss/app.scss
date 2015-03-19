@@ -141,6 +141,61 @@ body {
         @media screen and (min-width: $responsive-break-large) {
           width: 60%;
         }
+        
+        .experience {
+          width: 100%;
+
+          h3 {
+            font-size: 1.1em;
+            font-weight: bold;
+            margin-bottom: 3px;
+          }
+          .left-column {
+            width: 90%;
+            padding: 3%;
+            float: left;
+            
+            .year {
+              font-size: 1em;
+              opacity: 0.7;
+            }
+
+            @media screen and (max-width: $responsive-break-small) {
+              width: 90%;
+              padding: 3%;
+            }
+            @media screen and (min-width: $responsive-break-large) {
+              width: 20%;
+              padding: 1%;
+            }
+          }
+          .right-column {
+            width: 87%;
+            padding: 3% 6% 3% 3%;
+            background: #F2F2F2;
+            box-shadow: 2px 2px 2px #EDEDED;
+            border-top-right-radius: 8px;
+            border-bottom-right-radius: 8px;
+            float: left;
+
+            p {
+              font-size: 0.94em;
+              line-height: 1.3em;
+            }
+            
+            @media screen and (max-width: $responsive-break-small) {
+              width: 90%;
+              padding: 3%;
+              border-top-right-radius: 0px;
+              border-bottom-left-radius: 8px;
+              border-bottom-right-radius: 8px;
+            }
+            @media screen and (min-width: $responsive-break-large) {
+              width: 75%;
+              padding: 1% 2% 1% 1%;
+            }
+          }
+        }
       }
       section.right-section {
         width: 42%;
@@ -186,7 +241,7 @@ body {
             list-style-image: url($img-contact-github);
             margin-left: 24px;
           }
-          &.experience {
+          &.education {
             line-height: 1em;
             margin-left: -12px;
 
