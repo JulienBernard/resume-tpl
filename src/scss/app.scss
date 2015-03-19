@@ -200,7 +200,7 @@ body {
         
         .experience {
           width: 100%;
-
+          
           h3 {
             font-size: 1.1em;
             font-weight: bold;
@@ -209,7 +209,11 @@ body {
           .left-column {
             width: 90%;
             padding: 3%;
-            float: left;
+            float: right;
+            
+            h3 {
+              margin-top: 40px;
+            }
             
             .year {
               font-size: 1em;
@@ -226,25 +230,28 @@ body {
             }
           }
           .right-column {
-            width: 87%;
-            padding: 3% 6% 3% 3%;
-            background: #F2F2F2;
+            width: 90%;
+            height: 70px;
+            padding: 3%;
+            color: white;
+            background: #59ABE3;
             box-shadow: 2px 2px 2px #EDEDED;
-            border-top-right-radius: 8px;
-            border-bottom-right-radius: 8px;
-            float: left;
+            float: right;
 
             p {
+              color: white;
               font-size: 0.94em;
               line-height: 1.3em;
+            }
+            &:hover {
+              background: #3498DB;
+              box-shadow: 2px 2px 4px #DDD;
+              transition: all 0.6s ease-out;
             }
             
             @media screen and (max-width: $responsive-break-small) {
               width: 90%;
               padding: 3%;
-              border-top-right-radius: 0px;
-              border-bottom-left-radius: 8px;
-              border-bottom-right-radius: 8px;
             }
             @media screen and (min-width: $responsive-break-large) {
               width: 75%;
@@ -327,14 +334,11 @@ body {
             padding: 6px;
             margin: 2px;
             
-            &:before {
-              content: "";
-              font-family: FontAwesome;
-              font-style: normal;
-              font-weight: normal;
-              position: absolute;
-              top: 6px;
-              left: 7px;
+            &:hover {
+              background: #3498DB;
+              cursor: pointer;
+              transition: all 0.6s ease-out;
+            }
           }
         }
       }

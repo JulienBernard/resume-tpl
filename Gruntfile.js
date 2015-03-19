@@ -33,6 +33,12 @@ module.exports = function(grunt) {
                 cwd: './src/assets/',
                 src: '**',
                 dest: './build/'
+            },
+            libs: {
+                expand: true,
+                cwd: './src/lib/',
+                src: '**',
+                dest: './build/lib/'
             }
         },
 
@@ -58,7 +64,7 @@ module.exports = function(grunt) {
         }
     });
 
-    grunt.registerTask('default', ['clean:build', 'copy:html', 'copy:assets', 'make-styles']);
+    grunt.registerTask('default', ['clean:build', 'copy:html', 'copy:assets', 'copy:libs', 'make-styles']);
     grunt.registerTask("make-styles", ["sass:dist", "autoprefixer:dist"])
     grunt.registerTask('clean-build', ['clean:build']);
 };
