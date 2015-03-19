@@ -171,19 +171,19 @@ body {
             color: black;
           }
             &.phone {
-            list-style-image: url("images/icon-phone.png");
+            list-style-image: url($img-contact-phone);
             margin-left: 24px;
           }
           &.mail {
-            list-style-image: url("images/icon-mail.png");
+            list-style-image: url($img-contact-mail);
             margin-left: 24px;
           }
           &.website {
-            list-style-image: url("images/icon-website.png");
+            list-style-image: url($img-contact-website);
             margin-left: 24px;
           }
           &.github {
-            list-style-image: url("images/icon-github.png");
+            list-style-image: url($img-contact-github);
             margin-left: 24px;
           }
           &.experience {
