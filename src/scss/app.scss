@@ -183,6 +183,7 @@ body {
           }
         }
 
+
         @media screen and (max-width: $responsive-break-large) {
           width: 98%;
           padding: 1%;
@@ -200,62 +201,83 @@ body {
         
         .experience {
           width: 100%;
+
+          aside {
+            margin-top: 1%;
+            margin-bottom: 1%;
+          }
           
           h3 {
             font-size: 1.1em;
             font-weight: bold;
             margin-bottom: 3px;
           }
-          .left-column {
-            width: 90%;
-            padding: 3%;
-            float: right;
-            
-            h3 {
-              margin-top: 40px;
+          .right-column {
+            width: auto;
+            float: none;
+            display: block;
+            background: #ECF0F1;
+            text-align: center;
+            padding: 6px;
+            transition: all 0.4s ease-out;
+            margin: auto auto 1% auto;
+
+            i.fa {
+              display: block;
+              margin: auto;
             }
-            
+            h3 {
+              margin-top: 6px;
+            }
             .year {
-              font-size: 1em;
+              font-size: 0.9em;
               opacity: 0.7;
             }
-
-            @media screen and (max-width: $responsive-break-small) {
-              width: 90%;
-              padding: 3%;
+            
+            &:hover {
+              background: #34495E;
+              color: white;
+              transition: all 0.4s ease-out;
             }
+
             @media screen and (min-width: $responsive-break-large) {
-              width: 20%;
-              padding: 1%;
+              width: 18%;
+              padding: 24px 2% 0 1%;
+              float: right;
+              margin-top: 1%;
+              min-height: 80px;
             }
           }
-          .right-column {
-            width: 90%;
-            height: 70px;
-            padding: 3%;
-            color: white;
-            background: #59ABE3;
-            box-shadow: 2px 2px 2px #EDEDED;
-            float: right;
+          .left-column {
+            width: auto;
+            min-height: 70px;
+            color: black;
+            background: #E4F1FE;
+            display: inline-block;
+            padding: 12px;
+            transition: all 0.4s ease-out;
 
-            p {
-              color: white;
-              font-size: 0.94em;
-              line-height: 1.3em;
+            h3 {
+              color: #22313F;
             }
-            &:hover {
-              background: #3498DB;
-              box-shadow: 2px 2px 4px #DDD;
-              transition: all 0.6s ease-out;
+            p {
+              color: black;
+              opacity: 0.8;
+              margin-top: 1%;
+              font-size: 0.9em;
+              line-height: 1.2em;
             }
             
-            @media screen and (max-width: $responsive-break-small) {
-              width: 90%;
-              padding: 3%;
+            &:hover {
+              background: #6BB9F0;
+              box-shadow: 2px 2px 4px #CCC;
+              transition: all 0.6s ease-out;
             }
+
             @media screen and (min-width: $responsive-break-large) {
               width: 75%;
-              padding: 1% 2% 1% 1%;
+              padding: 12px 2% 12px 1%;
+              min-height: 80px;
             }
           }
         }
