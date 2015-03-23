@@ -11,7 +11,8 @@ module.exports = function(grunt) {
                     sourcemap: 'none'
                 },
                 files: {
-                    './build/app.css': './src/scss/app.scss'
+                    './build/app.css': './src/scss/app.scss',
+                    './build/print.app.css': './src/scss/print.app.scss'
                 }
             }
         },
