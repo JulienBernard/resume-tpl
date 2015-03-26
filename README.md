@@ -2,6 +2,8 @@
 
 An open and free **HTML template** to make your own **awesome resume**! Built with Sass, fully configurable. Wow!
 
+[See an example (online)](http://www.jibidev.fr/resume/index.html)
+
 ## Getting started ##
 
 ### Requirement ###
@@ -29,15 +31,16 @@ Don't forget to use the `watch` task when you are setting up and filling your re
 - `grunt watch` - wait an update on the SCSS or HTML files
 
 ## Licence ##
-Under GPL 3.0 licence. Read more about this licence [here](http://www.gnu.org/licenses/gpl-3.0.html "Click to read more about the GPL licence").
+Under GPL 2.0 licence. Read more about this licence [here](http://www.gnu.org/licenses/gpl-2.0.html "Click to read more about the GPL licence").
 
 ### Ressources and authors ###
 
-- [User icon] Icone made by [Budi Tanrim](http://buditanrim.co "http://buditanrim.co") from [Flaticon](www.flaticon.com "www.flaticon.com") is licensing under [CC BY 3.0](http://creativecommons.org/licenses/by/3.0/ "http://creativecommons.org/licenses/by/3.0/")
-- [Phone icon] Icone made by [Freepik](http://www.freepik.com "http://www.freepik.com") from [Flaticon](www.flaticon.com "www.flaticon.com") is licensing under [CC BY 3.0](http://creativecommons.org/licenses/by/3.0/ "http://creativecommons.org/licenses/by/3.0/")
-- [Email icon] Icone made by [GraphicsBay](http://graphicsbay.com "http://graphicsbay.com") from [Flaticon](www.flaticon.com "www.flaticon.com") is licensing under [CC BY 3.0](http://creativecommons.org/licenses/by/3.0/ "http://creativecommons.org/licenses/by/3.0/")
-- [Website icon] Icone made by [Freepik](http://www.freepik.com "http://www.freepik.com") from [Flaticon](www.flaticon.com "www.flaticon.com") is licensing under [CC BY 3.0](http://creativecommons.org/licenses/by/3.0/ "http://creativecommons.org/licenses/by/3.0/")
-- [GitHub icon] Icone made by [Dave Gandy](http://fontawesome.io "http://fontawesome.io") from [Flaticon](www.flaticon.com "www.flaticon.com") is licensing under [CC BY 3.0](http://creativecommons.org/licenses/by/3.0/ "http://creativecommons.org/licenses/by/3.0/")
+- Icon made by Freepik from www.flaticon.com is licensed under CC BY 3.0 [(Source)](http://www.flaticon.com/free-icon/personal-card_65103)
+- Icon made by Freepik from www.flaticon.com is licensed under CC BY 3.0 [(Source)](http://www.flaticon.com/free-icon/user-location_69078)
+- Icon made by Freepik from www.flaticon.com is licensed under CC BY 3.0 [(Source)](http://www.flaticon.com/free-icon/phone-auricular-black-shape_16603)
+- Icon made by Freepik from www.flaticon.com is licensed under CC BY 3.0 [(Source)](http://www.flaticon.com/free-icon/mail-envelope_62032)
+- Icon made by Daniel Bruce from www.flaticon.com is licensed under CC BY 3.0 [(Source)](http://www.flaticon.com/free-icon/github-head-logo_23586)
+- Font Awesome by Dave Gandy - [(Source)](http://fontawesome.io)
 
 
 ## Author ##

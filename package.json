@@ -2,18 +2,18 @@
 	"name": "resume-tpl",
 	"description": "An open and free template to make your own awesome resume!",
 	"author": "\"Jibi\" Julien Bernard (http://jibidev.fr/)",
-	"version": "0.0.0",
+	"version": "1.0.0",
 	"repository": {
 		"type": "git",
-		"url": "git:"
+		"url": "git@github.com:JulienBernard/resume-tpl.git"
 	},
-		"bugs": {
-		"url": "http://"
+	"bugs": {
+		"url": "https://github.com/JulienBernard/resume-tpl"
 	},
 	"licenses": [
 		{
-			"type": "GPL 3.0",
-			"url": "http://www.gnu.org/licenses/gpl-3.0.html"
+			"type": "GPL 2.0",
+			"url": "http://www.gnu.org/licenses/gpl-2.0.html"
 		}
 	],
 	"devDependencies": {
