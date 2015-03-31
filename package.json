@@ -1,29 +1,29 @@
 {
-	"name": "resume-tpl",
-	"description": "An open and free template to make your own awesome resume!",
-	"author": "\"Jibi\" Julien Bernard (http://jibidev.fr/)",
-	"version": "1.0.0",
-	"repository": {
-		"type": "git",
-		"url": "git@github.com:JulienBernard/resume-tpl.git"
-	},
-	"bugs": {
-		"url": "https://github.com/JulienBernard/resume-tpl"
-	},
-	"licenses": [
-		{
-			"type": "GPL 2.0",
-			"url": "http://www.gnu.org/licenses/gpl-2.0.html"
-		}
-	],
-	"devDependencies": {
-		"grunt": "^0.4.5",
-		"grunt-autoprefixer": "^2.1.0",
-		"grunt-contrib-clean": "^0.6.0",
-		"grunt-contrib-concat": "^0.5.0",
-		"grunt-contrib-copy": "^0.7.0",
-		"grunt-contrib-sass": "^0.8.1",
-		"grunt-contrib-watch": "^0.6.1",
-		"load-grunt-tasks": "^2.0.0"
-	}
+  "name": "resume-tpl",
+  "description": "An open and free template to make your own awesome resume!",
+  "author": "\"Jibi\" Julien Bernard (http://jibidev.fr/)",
+  "version": "1.0.0",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:JulienBernard/resume-tpl.git"
+  },
+  "bugs": {
+    "url": "https://github.com/JulienBernard/resume-tpl"
+  },
+  "licenses": [
+    {
+      "type": "GPL 2.0",
+      "url": "http://www.gnu.org/licenses/gpl-2.0.html"
+    }
+  ],
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-autoprefixer": "^2.1.0",
+    "grunt-contrib-clean": "^0.6.0",
+    "grunt-contrib-concat": "^0.5.0",
+    "grunt-contrib-copy": "^0.7.0",
+    "grunt-contrib-watch": "^0.6.1",
+    "grunt-sass": "^0.18.1",
+    "load-grunt-tasks": "^2.0.0"
+  }
 }

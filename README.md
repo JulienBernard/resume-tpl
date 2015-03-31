@@ -16,6 +16,10 @@ But if you just want the original sources, you don't need anything in particular
 
 You have Node.js? Great! Now install the modules by doing this on your console: `npm install`
 
+```
+Don't forget to install the famous task runner Grunt in global on your machine: npm install grunt-cli -g  
+```
+
 The build process works with a simple command: type in your console `grunt` to launch the default Grunt task!
 
 By doing this, a new folder "build" should be appear. It contain an HTML file `index.html` and it stylesheet `app.css`. Just launch index.html in your favorite browser and see the result :)
