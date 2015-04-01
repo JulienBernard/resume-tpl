@@ -13,7 +13,12 @@
 @import 'settings';	// Globals settings (mixins)
 
 /* Website stylesheet */
-
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
 body {
   background: $background-body-color;
   font-family: $text-primary-fonts;
@@ -216,13 +221,13 @@ body {
         }
       }
       section.left-section {
-        width: 50%;
+        width: 55%;
 
         @media screen and (max-width: $responsive-break-small) {
           width: 98%;
         }
         @media screen and (min-width: $responsive-break-large) {
-          width: 60%;
+          width: 65%;
         }
 
         .experience {
@@ -267,11 +272,11 @@ body {
             }
 
             @media screen and (min-width: $responsive-break-large) {
-              width: 18%;
-              padding: 24px 2% 0 1%;
+              width: 24%;
+              padding: 28px 2% 0 1%;
               float: right;
               margin-top: 1%;
-              min-height: 80px;
+              min-height: 110px;
             }
           }
           .left-column {
@@ -302,14 +307,14 @@ body {
 
             @media screen and (min-width: $responsive-break-large) {
               width: 75%;
-              padding: 12px 2% 12px 1%;
-              min-height: 80px;
+              padding: 14px 2% 12px 1%;
+              min-height: 110px;
             }
           }
         }
       }
       section.right-section {
-        width: 42%;
+        width: 45%;
         float: right;
 
         @media screen and (max-width: $responsive-break-small) {
@@ -317,7 +322,7 @@ body {
           float: none;
         }
         @media screen and (min-width: $responsive-break-large) {
-          width: 32%;
+          width: 35%;
           float: right;
         }
 
