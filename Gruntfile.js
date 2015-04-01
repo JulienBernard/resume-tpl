@@ -48,6 +48,14 @@ module.exports = function(grunt) {
 			}]
 		  }
 		},
+		
+		uncss: {
+		  remove: {
+			files: {
+			  'build/tmp/app.css': ['build/index.html']
+			}
+		  }
+		},
 
         copy: {
             html: {
@@ -89,7 +97,7 @@ module.exports = function(grunt) {
         }
     });
 
-    grunt.registerTask('default', ['clean:build', 'copy:html', 'copy:libs', 'copy:fonts', 'tinypng:assets', 'make-styles', 'cssmin:minify', 'clean:tmp']);
-    grunt.registerTask('make-styles', ["sass:dist", "autoprefixer:dist"])
+    grunt.registerTask('default', ['clean:build', 'copy:html', 'copy:libs', 'copy:fonts', 'tinypng:assets', 'make-styles', 'clean:tmp']);
+    grunt.registerTask('make-styles', ["sass:dist", "cssmin:minify", "uncss:remove", "autoprefixer:dist"])
     grunt.registerTask('clean-build', ['clean:build']);
 };
