@@ -24,6 +24,7 @@
     "grunt-contrib-copy": "^0.7.0",
     "grunt-contrib-watch": "^0.6.1",
     "grunt-sass": "^0.18.1",
-    "load-grunt-tasks": "^2.0.0"
+    "load-grunt-tasks": "^2.0.0",
+    "grunt-tinypng": "^0.5.3"
   }
 }

@@ -23,17 +23,24 @@ module.exports = function(grunt) {
                 dest: './build/app.css'
             }
         },
+		
+		tinypng: {
+			options: {
+			  apiKey: "YOUR API KEY HERE",
+			  showProgress: true
+			},
+			assets: {
+			  expand: true,
+			  cwd: 'src/assets/',
+			  src: 'images/*.*',
+			  dest: 'build/'
+			},
+		  },
 
         copy: {
             html: {
                 src: './src/index-dev.html',
                 dest: './build/index.html'
-            },
-            assets: {
-                expand: true,
-                cwd: './src/assets/',
-                src: '**',
-                dest: './build/'
             },
             libs: {
                 expand: true,
@@ -65,7 +72,7 @@ module.exports = function(grunt) {
         }
     });
 
-    grunt.registerTask('default', ['clean:build', 'copy:html', 'copy:assets', 'copy:libs', 'make-styles']);
+    grunt.registerTask('default', ['clean:build', 'copy:html', 'tinypng:assets', 'copy:libs', 'make-styles']);
     grunt.registerTask("make-styles", ["sass:dist", "autoprefixer:dist"])
     grunt.registerTask('clean-build', ['clean:build']);
 };
