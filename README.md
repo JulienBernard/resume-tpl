@@ -22,13 +22,13 @@ Don't forget to install the famous task runner Grunt in global on your machine: 
 
 The build process works with a simple command: type in your console `grunt` to launch the default Grunt task!
 
-By doing this, a new folder "build" should be appear. It contain an HTML file `index.html` and it stylesheet `app.css`. Just launch index.html in your favorite browser and see the result :)
+By doing this, a new folder "build" should be appear. It contain an HTML file `index.html` and it stylesheets: `app.min.css` and `print.min.css`. Just launch `index.html` in your favorite browser and see the result :)
 
 ### Grunt tasks : ###
 
 - `grunt` or `grunt default` - the easier way to build the project (check *build/* folder for the result!)
-- `grunt make-styles` - convert SCSS to CSS files and add the CSS prefixes to *build/app.css*
-- `grunt clean-build` - remove all the files contains in the build folder
+- `grunt make-styles` - convert SCSS to CSS files, minify them and add the CSS prefixes to *build/app.css*
+- `grunt clean` - remove all the files contains in the build folder
 
 Don't forget to use the `watch` task when you are setting up and filling your resume!
 

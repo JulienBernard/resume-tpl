@@ -2,7 +2,7 @@
   "name": "resume-tpl",
   "description": "An open and free template to make your own awesome resume!",
   "author": "\"Jibi\" Julien Bernard (http://jibidev.fr/)",
-  "version": "1.0.0",
+  "version": "1.2.0",
   "repository": {
     "type": "git",
     "url": "git@github.com:JulienBernard/resume-tpl.git"
